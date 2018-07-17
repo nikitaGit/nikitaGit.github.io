@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>LE Navigator</title>
+  <base href="https://nikitaGit.github.io">  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <meta http-equiv="Content-Security-Policy" content="img-src 'self' data: chrome-extension-resource:;">
+
+
+
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="apple-touch-startup-image" href="images/splash/launch-640x1136.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="images/splash/launch-750x1294.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="images/splash/launch-1242x2148.png" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="images/splash/launch-1125x2436.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="images/splash/launch-1536x2048.png" media="(min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="images/splash/launch-1668x2224.png" media="(min-device-width: 834px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="images/splash/launch-2048x2732.png" media="(min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta name="theme-color" content="#2f2f2f">
+  <link rel="manifest" href="manifest.json">
+  <meta id="rapidViewport" name="viewport" content="width=750, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta charset="UTF-8">
+  <script type="text/javascript" src="https://rapidui-1376.firebaseapp.com/plugins/jquery/jquery-3.1.1-min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://rapidui-1376.firebaseapp.com/rpd_assets/rapid-reset/1-0-2.css">
+  <script type="text/javascript" src="https://rapidui-1376.firebaseapp.com/rpd_assets/rapidui.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="https://unpkg.com/ipfs/dist/index.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/ipfs/dist/index.min.js"></script>
+
+  <meta http-equiv="origin-trial" data-feature="Web Share" data-expires="2016-12-01" content="TOKEN">
+
+  <!-- loading the human-readable (not minified) version -->
+  <script src="https://unpkg.com/ipfs/dist/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/ipfs/dist/index.js"></script>
+
+  <script>
+    WebFont.load({
+      google: {
+        families: ["Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic:greek,vietnamese,cyrillic,cyrillic-ext,latin-ext,latin,greek-ext"]
+      }
+    });
+  </script>
+<link rel="stylesheet" href="styles.afc04d2e8629781c7a1a.css"></head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<!-- <script src="../../bower_components/angular3/angular.js"></script> -->
+
+
+
+
+<body>
+  <app-root>
+    <style>
+      app-root {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+        color: #fff;
+        text-transform: uppercase;
+        font-family: -apple-system,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        sans-serif;
+        font-size: 2.5em;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      body {
+        background: linear-gradient(180deg, #2f2f2f 0%, #808080 100%);
+        margin: 0;
+        padding: 0;
+      }
+
+      @keyframes dots {
+        50% {
+          transform: translateY(-.4rem);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+
+      .d {
+        font-size: 40px;
+        animation: dots 1.5s ease-out infinite;
+      }
+
+      .d-2 {
+        font-size: 40px;
+        animation-delay: .5s;
+      }
+
+      .d-3 {
+        font-size: 40px;
+        animation-delay: 1s;
+      }
+    </style>
+
+    Loading <span class="d">.</span><span class="d d-2">.</span><span class="d d-3">.</span>
+  </app-root>
+
+  <noscript>
+    <h3 style="color: #000; font-family: Helvetica; margin: 2rem;">
+      Sorry, but this app is not available without JavaScript.
+    </h3>
+  </noscript>
+
+<script type="text/javascript" src="runtime.a66f828dca56eeb90e02.js"></script><script type="text/javascript" src="polyfills.51a5dcf7182f3640b527.js"></script><script type="text/javascript" src="main.1553501a586ba4f179cb.js"></script></body>
+
+
+<script>
+  if ('serviceWorker' in navigator) {
+  //  console.log("Will the service worker register?");
+    navigator.serviceWorker.register('service-worker.js')
+      .then(function(reg) {
+      //  console.log("Yes, it did.");
+      }).catch(function(err) {
+     //   console.log("No it didn't. This happened: ", err)
+      });
+  }
+</script>
+
+
+
+</html>

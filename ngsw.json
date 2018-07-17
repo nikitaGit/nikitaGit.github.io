@@ -1,0 +1,54 @@
+{
+  "configVersion": 1,
+  "index": "https://nikitaGit.github.io/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://nikitaGit.github.io/favicon.ico",
+        "https://nikitaGit.github.io/index.html",
+        "https://nikitaGit.github.io/main.1553501a586ba4f179cb.js",
+        "https://nikitaGit.github.io/polyfills.51a5dcf7182f3640b527.js",
+        "https://nikitaGit.github.io/runtime.a66f828dca56eeb90e02.js",
+        "https://nikitaGit.github.io/styles.afc04d2e8629781c7a1a.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://nikitaGit.github.io/favicon.ico": "9b476f14b3a14221f213071463a308c3bab315db",
+    "https://nikitaGit.github.io/index.html": "8a7c70364c3846351a83eb1c1afa7194a1cc080e",
+    "https://nikitaGit.github.io/main.1553501a586ba4f179cb.js": "39096654f66cc4731ee3bd9d26f92d5ef88bd47b",
+    "https://nikitaGit.github.io/polyfills.51a5dcf7182f3640b527.js": "bb44f48d94bf2a26cc639b56f1112f02f65ce732",
+    "https://nikitaGit.github.io/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
+    "https://nikitaGit.github.io/styles.afc04d2e8629781c7a1a.css": "08fe168b23b26858861e258702f034f8d5fbd4c3"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*\\.[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*\\/.*$"
+    }
+  ]
+}

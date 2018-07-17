@@ -1,0 +1,26 @@
+{
+  "name": "Legal Entity Navigator",
+  "short_name": "LE Navigator",
+  "description": "Legal Entity Navigator",
+
+ "icons": [
+    {
+      "src": "/images/logo.png",
+      "type": "image/png",
+  	"sizes": "192x192"
+    },
+    {
+      "src": "/images/logo.png",
+      "type": "image/png",
+	"sizes": "512x512"
+
+    }
+  ],
+
+  "start_url": "/",
+  "display": "standalone",
+    "orientation": "portrait",
+  "background_color": "#2f2f2f",
+  "theme_color": "#2f2f2f"
+
+}
